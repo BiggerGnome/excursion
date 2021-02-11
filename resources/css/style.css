@@ -11,19 +11,22 @@ body {
 }
 .header {
     color: white;
-    display: flex;
     width: 100%;
 }
 
-.header a {
+a {
+
     color: aquamarine;
+}
+a:hover {
+    color: yellow;
 }
 
 .header h1 {
     font-size: 3.125rem;
+    font-weight: normal;
 }
 .container {
-    border: 1px green solid;
     margin: 0 auto;
     width: 100%;
     
@@ -34,18 +37,28 @@ body {
     font-size: 2.625rem;
 }
 
-.content p {
-    font-size: 1.3125;
+.content {
+    
+    
+}
+    
+
+p {
+    padding-bottom: 1rem;
+    color: gray;
+    font-size: 1.3125rem;
 }
 
 video {
     margin-top: 2rem;
-    border: 1px blue solid;
 }
 
-.link {
-    
-    justify-content: center;
+
+.footer {
+    color: gray;
+    font-size: 1.3125rem;
+    text-align: right;
+
 }
 
 
